@@ -1,1 +1,3 @@
-# android-simpleadapter-example
+# Android SimpleAdapter Example
+
+Repository used for SimpleAdapter
