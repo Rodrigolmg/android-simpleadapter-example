@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".atividades.PedidoActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblNomeCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/label_cliente"/>
+
+        <EditText
+            android:id="@+id/txtNomeCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/hint_cliente"/>
+
+        <TextView
+            android:id="@+id/lblProdutos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_produtos"/>
+
+        <Spinner
+            android:id="@+id/spnProdutos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnAdicionarProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_adicionar_produto"
+            android:onClick="adicionarPedidoLista"/>
+
+        <ListView
+            android:id="@+id/lstProdutos"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:clickable="false"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnRealizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_realizar_pedido"
+            android:onClick="realizarPedido"/>
+
+        <Button
+            android:id="@+id/btnLimparCampos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_campos"
+            android:onClick="limparCampos"/>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_cliente">Nome do Cliente</string>
+    <string name="label_produtos">Produtos</string>
+    <string name="btn_adicionar_produto">Adicionar</string>
+    <string name="btn_realizar_pedido">Realizar Pedido</string>
+    <string name="btn_campos">Limpar Campos</string>
+    
+    <string name="label_id_produto">Id</string>
+    <string name="label_nome_produto">Nome</string>
+    <string name="label_valor_produto">Valor</string>
+    <string name="label_quantidade_produto">Quantidade</string>
+</resources>
